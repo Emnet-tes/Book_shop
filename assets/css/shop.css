@@ -1,0 +1,58 @@
+.shopBook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bookList {
+    padding: 10px;
+}
+
+.addToCart {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 7px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #3498db;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color change */
+}
+
+.addToCart:hover {
+    background-color: #2980b9;
+    /* Button background color on hover */
+}
+
+.priceAndButton {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.monthlyBook {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 50px;
+}
+
+.monthlyTitle {
+    margin-right: 20px;
+    font-size: 40px;
+    margin-right: 200px;
+}
+
+.monthlyImage {
+    max-width: 100%;
+    max-height: 100%;
+}

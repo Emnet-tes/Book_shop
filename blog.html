@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog page</title>
+    <meta name="title" content="Booken - Get Your New Book Collections" />
+    <meta
+      name="description"
+      content="This is a Book eCommerce html template made by codewithsadee"
+    />
+    <!--
+    - custom css link
+-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header" data-header>
+      <div class="header-top">
+        <div class="container">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="138"
+              height="28"
+              alt="booken home"
+            />
+          </a>
+          <div class="header-action">
+            <button class="header-action-btn" aria-label="cart" title="Cart">
+              <span class="span">0</span>
+
+              <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button
+              class="nav-open-btn"
+              aria-label="open menu"
+              title="Open Menu"
+              data-nav-toggler
+            >
+              <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="header-action-btn" aria-label="user" title="User">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-navbar>
+        <div class="container">
+          <nav class="navbar">
+            <button
+              class="nav-close-btn"
+              data-nav-toggler
+              aria-label="clsoe menu"
+              title="Clsoe Menu"
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="index.html" class="navbar-link">Home</a>
+              </li>
+
+              <li>
+                <a href="blog.html" class="navbar-link">Blog</a>
+              </li>
+
+              <li>
+                <a href="shop.thml" class="navbar-link">Shop</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link">About Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a href="tel:+#" class="header-contact-link">
+            <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+
+            <span class="span">(+251)-934-567890</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </header>
+
+    <main>
+      <article>
+        <!--
+        - #HERO
+      -->
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <h1 class="h1 hero-title has-after">A Little blog of books</h1>
+          </div>
+        </section>
+
+        <!--
+        - #FEATURED COLLECTION
+      -->
+
+        <section class="section featured" aria-label="featured collection">
+          <div class="container">
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list">
+                    <span class="card-badge">New</span>
+
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-1.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="Black Night"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Black Night</a>
+                      </h3>
+
+                      <data class="card-price" value="80">80.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <div class="table-content">
+                    <section class="table-content" aria-label="home">
+                      <div class="container">
+                        <p>
+                          Charlie Hall has never found a lock she couldn’t pick,
+                          a book she couldn’t steal, or a bad decision she
+                          wouldn’t make. She's spent half her life working for
+                          gloamists, magicians who manipulate shadows to peer
+                          into locked rooms, strangle people in their beds, or
+                          worse. Gloamists guard their secrets greedily,
+                          creating an underground economy of grimoires. And to
+                          rob their fellow magicians, they need Charlie Hall.
+                          Now, she’s trying to distance herself from past
+                          mistakes, but getting out isn’t easy. Bartending at a
+                          dive, she’s still entirely too close to the corrupt
+                          underbelly of the Berkshires. Not to mention that her
+                          sister Posey is desperate for magic, and that
+                          Charlie's shadowless, and possibly soulless, boyfriend
+                          has been hiding things from her. When a terrible
+                          figure from her past returns, Charlie descends into a
+                          maelstrom of murder and lies.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-3.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="Open The Sky"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Open The Sky</a>
+                      </h3>
+
+                      <data class="card-price" value="80">80.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section class="table-content" aria-label="home">
+                    <div class="container">
+                      <p>
+                        This is where I get a bit vulnerable and share my own
+                        real-life stories about mental health, healing and
+                        striving to live a creative, slow-paced life. You’ll
+                        also find writing tips that I find particularly useful,
+                        strategies to start a practice of writing and tutorials
+                        for creative techniques. Welcome to my very imperfect
+                        and joyous life.
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list" id="info">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-4.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="Book Hard Cover"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">The Art Of War</a>
+                      </h3>
+
+                      <data class="card-price" value="55">550.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section class="table-content" aria-label="home">
+                    <div class="container">
+                      <p>
+                        The art of war teaches us to rely not on the likelihood of the rnrmy's not coming,but on our own readiness  to recive him; not on the chance of his not attacking,but rather on the fact that we have made our postion unassailable
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list" id="international">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-5.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="The Big Book Of Science"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title"
+                          >The Big Book Of Science</a
+                        >
+                      </h3>
+
+                      <data class="card-price" value="100">100.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section class="table-content" aria-label="home">
+                    <div class="container">
+                      <p>
+                        Despite these odds, Harvard still draws great interest
+                        from college-bound students, and receives nearly 40,000
+                        applications each year. If you plan on being one of
+                        these applicants, it’s in your best interest to learn as
+                        much about Harvard as possible, from its academic
+                        opportunities to the less tangible aspects of its
+                        on-campus atmosphere
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-6.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="By The Air"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">By The Air</a>
+                      </h3>
+
+                      <data class="card-price" value="89">89.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section class="table-content" aria-label="home">
+                    <div class="container">
+                      <p>
+                        Here I am eight months later after two surgeries, one
+                        very major surgery, and weeks and weeks of gruelling
+                        bloody awful daily treatment, not to mention utter
+                        anxiety, worry and dread. And not just for me either. A
+                        cancer diagnosis affects deeply those who love you the
+                        most and they deserve the biggest hug in the world for
+                        being the rock you cling to and stand on to prevent
+                        yourself from drowning. I don’t know yet if it’s all
+                        been successful but I’m optimistic, most of the time.
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-7.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="Murdering Last Year"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Murdering Last Year</a>
+                      </h3>
+
+                      <data class="card-price" value="34">340.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section
+                    class="table-content"
+                    aria-label="home"
+                    style="background-image: url('./assets/images/hero-bg.jpg')"
+                  >
+                    <div class="container">
+                      <p>
+                        Homicides — when people intentionally and illegally kill
+                        others for personal reasons — are the most serious
+                        crime. They are a common cause of death globally and a
+                        leading cause of death in some countries. They not only
+                        rob the victims of their lives: they also hurt the
+                        victims’ friends and families, they harm the broader
+                        community, and they may burden the perpetrators
+                        themselves and lead to their imprisonment or execution.
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>
+                  <div class="product-card table-list" id="activity">
+                    <div
+                      class="card-banner img-holder"
+                      style="--width: 384; --height: 480"
+                    >
+                      <img
+                        src="./assets/images/book-8.png"
+                        width="384"
+                        height="480"
+                        loading="lazy"
+                        alt="Stay Healthy"
+                        class="img-cover"
+                      />
+
+                      <div class="card-action">
+                        <button
+                          class="action-btn"
+                          aria-label="quick view"
+                          title="Quick View"
+                        >
+                          <ion-icon
+                            name="eye-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to wishlist"
+                          title="Add to Wishlist"
+                        >
+                          <ion-icon
+                            name="heart-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="compare"
+                          title="Compare"
+                        >
+                          <ion-icon
+                            name="repeat-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+
+                        <button
+                          class="action-btn"
+                          aria-label="add to cart"
+                          title="Add to Cart"
+                        >
+                          <ion-icon
+                            name="bag-handle-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Stay Healthy</a>
+                      </h3>
+
+                      <data class="card-price" value="67">670.00 birr</data>
+
+                      <div class="rating-wrapper">
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th>
+                  <section
+                    class="table-content"
+                    aria-label="home"
+                    style="background-image: url('./assets/images/hero-bg.jpg')"
+                  >
+                    <div class="container">
+                      <p>
+                        A healthy diet is rich in fiber, whole grains, fresh
+                        fruits and vegetables, "good" or unsaturated fats, and
+                        omega-3 fatty acids. These dietary components turn down
+                        inflammation, which can damage tissue, joints, artery
+                        walls, and organs. Going easy on processed foods is
+                        another element of healthy eating. Sweets, foods made
+                        with highly refined grains, and sugar-sweetened
+                        beverages can cause spikes in blood sugar that can lead
+                        to early hunger. High blood sugar is linked to the
+                        development of diabetes, obesity, heart disease, and
+                        even dementia.
+                      </p>
+                    </div>
+                  </section>
+                </th>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
